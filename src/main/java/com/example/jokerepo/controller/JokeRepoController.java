@@ -1,6 +1,5 @@
 package com.example.jokerepo.controller;
 
-import com.example.jokerepo.model.Joke;
 import com.example.jokerepo.model.Jokes;
 import com.example.jokerepo.service.JokeRepoService;
 import org.springframework.beans.factory.annotation.Autowired;
