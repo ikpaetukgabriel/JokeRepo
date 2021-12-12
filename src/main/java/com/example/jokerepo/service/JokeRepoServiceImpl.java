@@ -9,12 +9,12 @@ import java.util.UUID;
 import java.util.stream.IntStream;
 
 @Service
-public class JokeRepoService {
+public class JokeRepoServiceImpl {
 
   private final Jokes jokes;
 
   @Autowired
-  public JokeRepoService(Jokes jokes) {
+  public JokeRepoServiceImpl(Jokes jokes) {
     this.jokes = jokes;
   }
 
