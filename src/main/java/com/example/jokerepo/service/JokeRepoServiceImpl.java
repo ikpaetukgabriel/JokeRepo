@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.UUID;
 
 @Service
-public class JokeRepoServiceImpl implements JokeService {
+public class JokeRepoServiceImpl implements JokeRepoService {
 
   private Jokes jokes;
   private final ObjectMapper objectMapper;
