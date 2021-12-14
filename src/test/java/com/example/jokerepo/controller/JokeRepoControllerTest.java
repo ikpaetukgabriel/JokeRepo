@@ -16,7 +16,7 @@ class JokeRepoControllerTest {
 
   @Test
   public void test_getJokes() {
-    webTestClient.get().uri("/get-jokes")
+    webTestClient.get().uri("/get-repo-jokes")
         .accept(MediaType.APPLICATION_JSON)
         .exchange()
         .expectStatus().isOk()

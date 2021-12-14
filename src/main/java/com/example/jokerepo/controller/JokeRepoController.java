@@ -19,7 +19,7 @@ public class JokeRepoController {
     this.jokeRepoServiceImpl = jokeRepoServiceImpl;
   }
 
-  @GetMapping(value = "/get-jokes", produces = MediaType.APPLICATION_JSON_VALUE)
+  @GetMapping(value = "/get-repo-jokes", produces = MediaType.APPLICATION_JSON_VALUE)
   public ResponseEntity<Jokes> getJokesEndpoint() {
     Jokes jokes = jokeRepoServiceImpl.getJokes();
     return new ResponseEntity<>(jokes, HttpStatus.OK);
